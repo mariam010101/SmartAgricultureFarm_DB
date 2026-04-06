@@ -13,7 +13,7 @@ Below is the Entity-Relationship Diagram representing the database structure:
 
 ![ER Diagram](./assets/er-diagram.png)
 
-> 📌 Make sure to upload your diagram image to a folder named `assets` and name it `er-diagram.png`.
+
 
 ---
 
