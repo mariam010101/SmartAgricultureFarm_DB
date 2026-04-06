@@ -98,9 +98,11 @@ Below is the Entity-Relationship Diagram representing the database structure:
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Microsoft SQL Server / SSMS  
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
 
-### Installation
+### Installation & Setup
 
+1. Clone the repository:
 ```bash
-git clone https://github.com/mariam010101/smart-agriculture-db.git<img width="1090" height="787" alt="Screenshot 2026-04-05 001621" src="https://github.com/user-attachments/assets/2e04449e-7581-4d2e-8259-264f4e4e96bc" />
+git clone https://github.com/mariam010101/smart-agriculture-db.git
