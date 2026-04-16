@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90AFC1612F909FB20043ECC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC15E2F909BC30043ECC5 /* ContentView.swift */; };
+		90AFC1622F90A0000043ECC5 /* FarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC15D2F909BA40043ECC5 /* FarmViewModel.swift */; };
+		90AFC1632F90A0BE0043ECC5 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC15C2F909B7A0043ECC5 /* APIService.swift */; };
+		90AFC1662F90A4A40043ECC5 /* Farm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC1652F90A49E0043ECC5 /* Farm.swift */; };
+		90AFC16A2F90C38E0043ECC5 /* Workers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC1692F90C3550043ECC5 /* Workers.swift */; };
+		90AFC16C2F90C4220043ECC5 /* WorkerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC16B2F90C4180043ECC5 /* WorkerViewModel.swift */; };
+		90AFC16E2F90C43B0043ECC5 /* WorkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC16D2F90C4350043ECC5 /* WorkerView.swift */; };
+		90AFC1702F90C61C0043ECC5 /* FarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC16F2F90C6150043ECC5 /* FarmView.swift */; };
+		90AFC1722F90C6450043ECC5 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC1712F90C63B0043ECC5 /* MenuItem.swift */; };
+		90AFC1742F90C8530043ECC5 /* Crops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC1732F90C8500043ECC5 /* Crops.swift */; };
+		90AFC1762F90C8900043ECC5 /* CropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC1752F90C8850043ECC5 /* CropViewModel.swift */; };
+		90AFC1782F90C8A80043ECC5 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC1772F90C8A40043ECC5 /* CropView.swift */; };
+		90AFC17A2F90CC320043ECC5 /* Sersors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC1792F90CC2E0043ECC5 /* Sersors.swift */; };
+		90AFC17C2F90CC650043ECC5 /* SensorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC17B2F90CC5D0043ECC5 /* SensorViewModel.swift */; };
+		90AFC17E2F90CC8A0043ECC5 /* SensorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AFC17D2F90CC840043ECC5 /* SensorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90AFC1462F9099960043ECC5 /* AgroNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgroNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AFC15C2F909B7A0043ECC5 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		90AFC15D2F909BA40043ECC5 /* FarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmViewModel.swift; sourceTree = "<group>"; };
+		90AFC15E2F909BC30043ECC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90AFC1652F90A49E0043ECC5 /* Farm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farm.swift; sourceTree = "<group>"; };
+		90AFC1692F90C3550043ECC5 /* Workers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workers.swift; sourceTree = "<group>"; };
+		90AFC16B2F90C4180043ECC5 /* WorkerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerViewModel.swift; sourceTree = "<group>"; };
+		90AFC16D2F90C4350043ECC5 /* WorkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerView.swift; sourceTree = "<group>"; };
+		90AFC16F2F90C6150043ECC5 /* FarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmView.swift; sourceTree = "<group>"; };
+		90AFC1712F90C63B0043ECC5 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		90AFC1732F90C8500043ECC5 /* Crops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crops.swift; sourceTree = "<group>"; };
+		90AFC1752F90C8850043ECC5 /* CropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropViewModel.swift; sourceTree = "<group>"; };
+		90AFC1772F90C8A40043ECC5 /* CropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropView.swift; sourceTree = "<group>"; };
+		90AFC1792F90CC2E0043ECC5 /* Sersors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sersors.swift; sourceTree = "<group>"; };
+		90AFC17B2F90CC5D0043ECC5 /* SensorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewModel.swift; sourceTree = "<group>"; };
+		90AFC17D2F90CC840043ECC5 /* SensorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		90AFC1602F909DA50043ECC5 /* Exceptions for "AgroNavigation" folder in "AgroNavigation" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 90AFC1452F9099960043ECC5 /* AgroNavigation */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		90AFC1482F9099960043ECC5 /* AgroNavigation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				90AFC1602F909DA50043ECC5 /* Exceptions for "AgroNavigation" folder in "AgroNavigation" target */,
+			);
+			path = AgroNavigation;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90AFC1432F9099960043ECC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90AFC13D2F9099960043ECC5 = {
+			isa = PBXGroup;
+			children = (
+				90AFC1572F909A0B0043ECC5 /* Views */,
+				90AFC1562F909A020043ECC5 /* ViewModels */,
+				90AFC1552F9099F80043ECC5 /* Services */,
+				90AFC1542F9099DF0043ECC5 /* Models */,
+				90AFC1482F9099960043ECC5 /* AgroNavigation */,
+				90AFC1472F9099960043ECC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90AFC1472F9099960043ECC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90AFC1462F9099960043ECC5 /* AgroNavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90AFC1542F9099DF0043ECC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				90AFC1792F90CC2E0043ECC5 /* Sersors.swift */,
+				90AFC1732F90C8500043ECC5 /* Crops.swift */,
+				90AFC1692F90C3550043ECC5 /* Workers.swift */,
+				90AFC1652F90A49E0043ECC5 /* Farm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		90AFC1552F9099F80043ECC5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90AFC15C2F909B7A0043ECC5 /* APIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		90AFC1562F909A020043ECC5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				90AFC17B2F90CC5D0043ECC5 /* SensorViewModel.swift */,
+				90AFC1752F90C8850043ECC5 /* CropViewModel.swift */,
+				90AFC16B2F90C4180043ECC5 /* WorkerViewModel.swift */,
+				90AFC15D2F909BA40043ECC5 /* FarmViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		90AFC1572F909A0B0043ECC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				90AFC17D2F90CC840043ECC5 /* SensorView.swift */,
+				90AFC1772F90C8A40043ECC5 /* CropView.swift */,
+				90AFC1712F90C63B0043ECC5 /* MenuItem.swift */,
+				90AFC16F2F90C6150043ECC5 /* FarmView.swift */,
+				90AFC15E2F909BC30043ECC5 /* ContentView.swift */,
+				90AFC16D2F90C4350043ECC5 /* WorkerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90AFC1452F9099960043ECC5 /* AgroNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90AFC1512F9099980043ECC5 /* Build configuration list for PBXNativeTarget "AgroNavigation" */;
+			buildPhases = (
+				90AFC1422F9099960043ECC5 /* Sources */,
+				90AFC1432F9099960043ECC5 /* Frameworks */,
+				90AFC1442F9099960043ECC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				90AFC1482F9099960043ECC5 /* AgroNavigation */,
+			);
+			name = AgroNavigation;
+			packageProductDependencies = (
+			);
+			productName = AgroNavigation;
+			productReference = 90AFC1462F9099960043ECC5 /* AgroNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90AFC13E2F9099960043ECC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					90AFC1452F9099960043ECC5 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = 90AFC1412F9099960043ECC5 /* Build configuration list for PBXProject "AgroNavigation" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90AFC13D2F9099960043ECC5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 90AFC1472F9099960043ECC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90AFC1452F9099960043ECC5 /* AgroNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90AFC1442F9099960043ECC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90AFC1422F9099960043ECC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AFC17E2F90CC8A0043ECC5 /* SensorView.swift in Sources */,
+				90AFC16E2F90C43B0043ECC5 /* WorkerView.swift in Sources */,
+				90AFC1612F909FB20043ECC5 /* ContentView.swift in Sources */,
+				90AFC16C2F90C4220043ECC5 /* WorkerViewModel.swift in Sources */,
+				90AFC17A2F90CC320043ECC5 /* Sersors.swift in Sources */,
+				90AFC1702F90C61C0043ECC5 /* FarmView.swift in Sources */,
+				90AFC1632F90A0BE0043ECC5 /* APIService.swift in Sources */,
+				90AFC17C2F90CC650043ECC5 /* SensorViewModel.swift in Sources */,
+				90AFC16A2F90C38E0043ECC5 /* Workers.swift in Sources */,
+				90AFC1662F90A4A40043ECC5 /* Farm.swift in Sources */,
+				90AFC1622F90A0000043ECC5 /* FarmViewModel.swift in Sources */,
+				90AFC1742F90C8530043ECC5 /* Crops.swift in Sources */,
+				90AFC1762F90C8900043ECC5 /* CropViewModel.swift in Sources */,
+				90AFC1782F90C8A80043ECC5 /* CropView.swift in Sources */,
+				90AFC1722F90C6450043ECC5 /* MenuItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90AFC14F2F9099980043ECC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90AFC1502F9099980043ECC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		90AFC1522F9099980043ECC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgroNavigation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allow access to local network";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-00.AgroNavigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		90AFC1532F9099980043ECC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgroNavigation/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Allow access to local network";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-00.AgroNavigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90AFC1412F9099960043ECC5 /* Build configuration list for PBXProject "AgroNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AFC14F2F9099980043ECC5 /* Debug */,
+				90AFC1502F9099980043ECC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AFC1512F9099980043ECC5 /* Build configuration list for PBXNativeTarget "AgroNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90AFC1522F9099980043ECC5 /* Debug */,
+				90AFC1532F9099980043ECC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90AFC13E2F9099960043ECC5 /* Project object */;
+}
